@@ -39,7 +39,7 @@ public class MyWindow11 extends MyWindow10 implements ActionListener, ChangeList
         myWindow.setFrameFeature();
     }
 
-    private void addListeners() {
+    protected void addListeners() {
         savMenuItem.addActionListener(this);
         newFile.addActionListener(this);
         countrieslist.addListSelectionListener(this);

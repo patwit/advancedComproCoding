@@ -19,7 +19,7 @@ public class MyWindow8 extends MyWindow7{
         });
     }
 
-    protected static void createAndShowGUI() {
+    public static void createAndShowGUI() {
         MyWindow8 myWindow = new MyWindow8("Pattarawit Window8");
         myWindow.addComponents();
         myWindow.addMenus();
