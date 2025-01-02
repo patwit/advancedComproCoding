@@ -1,0 +1,60 @@
+- If, If else, switch case
+- while, do while, for
+- nested loop
+- break, continue
+- Scanner
+- Funtions, subroutine
+    - declaring, definition
+    - static
+    - calling method
+    - pssing parameters
+        - pass by values/ pass by address
+    - Overloading
+- Java API Doc
+    - Using Doc
+    - create Doc
+- Array
+    - Creating and Using an array
+    - The Array Object
+
+Codingbat 
+1. conCat (String 1)
+2. countHi (String 2)
+3. cigarParty (Logic 1)
+
+
+
+
+
+
+
+
+
+
+
+Programming
+    - Syntax, semantic and Pragmatic
+2 comments : note //, /*  */
+3 Java Class
+    - 2 หน้าที่ 1. Program - main 2. Class (OOP)
+4. Names
+5. Variables 
+    Declaration : String name; int age; double weight; 
+    Assignment : name = "Boss Paul"; age = 18; weight 78.9;
+    primitive type : 8 types: char, byte, short, int, long, float, double, boolean;
+    String name;
+    int age;
+    float VS double
+6. subroutine/method/function
+    - Java methods : println(), length(), toLowerCase(), Math.abs(-1.23)
+    - User defined methods : สร้างเอง
+7. String : String name; name = "KKU"
+    - operations
+    - converting data type
+        - numbers >> String : + : 123 + "4"
+        - String >> numbers : parseInt, parseDouble
+8. Conditional Statements
+    - if
+    - if else
+    - scope of if
+    - { }
