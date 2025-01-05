@@ -1,4 +1,4 @@
-public class Dog {
+public class abstract Dog {
     // Encapsulation
     private String name;
     private int age;
