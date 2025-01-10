@@ -1,24 +1,13 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class PetShop {
+    final int MAX = 100;
     public static void main(String[] args) {
-        Dog puffy = new Dog("A", 1);
-        Dog puffy2 = new Dog();
-        puffy.setName("A");
-        puffy2.setName("B");
-        puffy.setAge(1);
-        puffy2.setAge(12);
-        puffy.bark();
-        puffy.eat("bone");
-        SH p3 = new SH();
-        p3.setName("C");
-        p3.setAge(4);
-        p3.setEyeCol("blue");
-        CW p4 = new CW();
-        p4.setName("E");
-        p4.setWeight(100);
-        p3.bark();
-
-
-        System.out.println(p3);
-
+        CW c1 = new CW("A", 0, 0.1);
+        CW c2 = new CW("B", 1, 1.2);
+        CW c3 = new CW("C", 2, 0.8);
+        if(CompareWeight.compare(c1, c2) > 0)
+            System.out.println("O1");
     }
 }

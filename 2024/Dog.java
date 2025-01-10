@@ -1,12 +1,11 @@
-public class abstract Dog {
-    // Encapsulation
+public abstract class Dog {
+
     private String name;
     private int age;
 
-
     public Dog() {
-        this.name = "u";
-        this.age = 1;
+        this.name = "xxx";
+        this.age = 0;
     }
 
     public Dog(String name, int age) {
@@ -24,6 +23,7 @@ public class abstract Dog {
         this.age = age;
     }
 
+
     public String getName() {
         return name;
     }
@@ -39,16 +39,6 @@ public class abstract Dog {
     public void setAge(int age) {
         this.age = age;
     }
-    
-
-    void bark(){
-        System.out.println("โฮ่ง");
-    }
-
-    void eat(String food){
-        System.out.println("Eat " + food);
-    }
-
 
     @Override
     public String toString() {

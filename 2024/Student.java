@@ -1,7 +1,10 @@
-class Student{
+class Student implements Movable{
+
+
     //attributes
     private String name;
     private int id;
+
 
     //Constructor
     public Student(){
@@ -17,6 +20,11 @@ class Student{
     public Student(String name, int id){
         this.name = name;
         this.id = id;
+    }
+
+
+    public void move(){
+        System.out.println("walk");
     }
 
     public void setName(String name) {

@@ -58,3 +58,46 @@ Programming
     - if else
     - scope of if
     - { }
+
+
+Jam 7,
+
+1. จัดกลุ่ม นศ. 2 คน
+2. ให้ใช้เฉพาะ ดินสอและปากกาเท่านั้น
+3. เขียนรหัส นศ. ในกระดาษที่จะส่ง
+4. วาด UML diagram ที่มีคุณสมบัติต่อไปนี้
+    - 1 abtract Class
+        - มีอย่างน้อย 1 abstract method
+    - 1 super Class
+        - extends มาจาก acstract method
+        - ออกแบบ attribute และ methods (bahavior)
+    - 2 sub Class
+        - sibling clas ต่อกัน
+        - extends มาจาก super Class
+        - ออกแบบ attribute และ methods (bahavior) ที่ควรมี
+
+
+Score 
+1. Completeness & Correctness (40%X)
+2. Realistic Representation of a Real-World Concept (30%)
+3. Creativity & Originality (30%)
+
+
+
+Lecture 
+Review
+1. Abstract Class
+2. Abstract methods
+New 
+3. Interface
+    - how to implement
+    - VS abstract class : number, methods in ionterfaces are all abstract methods, 
+        interface can only have methods with no body. (static method?)
+    - มักจะเป็น ความสามารถ
+4. Constructors
+    - chaining
+    - using super
+5. Comparator
+    - compare objects
+    - compare(Object o1, Object o2)
+    
