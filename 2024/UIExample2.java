@@ -57,3 +57,4 @@ public class UIExample2 extends JFrame{
         setLocationRelativeTo(null);
     }
 }
+
