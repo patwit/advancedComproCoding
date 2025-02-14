@@ -32,7 +32,7 @@ public class Window7 extends Window6{
         super.addComponents();
 
         myImage = new ReadWindowImage("kku.jpg");
-        myImage.setPreferredSize(new Dimension(600, 450));
+        myImage.setPreferredSize(new Dimension(400, 250));
         newBottomPanel = new JPanel(new BorderLayout());
         newBottomPanel.add(myImage, BorderLayout.NORTH);
         newBottomPanel.add(buttonPanel, BorderLayout.CENTER);

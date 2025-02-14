@@ -22,10 +22,11 @@ public class Window6 extends Window5{
         msw.setFrameFeature();
     }
 
+    @Override
     protected void addMenus() {
         super.addMenus();
         
-        ImageIcon openIcon = new ImageIcon(getClass().getResource("/images/open_icon.png"));
+       ImageIcon openIcon = new ImageIcon(getClass().getResource("/images/open_icon.png"));
        
         openMI.setIcon(openIcon);
         
