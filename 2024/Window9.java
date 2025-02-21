@@ -71,9 +71,5 @@ public class Window9 extends Window8{
         extraPanel.add(listPanel, BorderLayout.CENTER);
         extraPanel.add(sliderPanel, BorderLayout.SOUTH);
         newBottomPanel.add(extraPanel, BorderLayout.SOUTH);
-        
-        //mainPanel.add(extraPanel, BorderLayout.EAST);
     }
-
-
 }
