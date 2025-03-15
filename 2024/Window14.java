@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
-public class Window14  extends Window11 implements ActionListener{
+public class Window14  extends Window10 implements ActionListener {
 
     protected JMenu colorMenu;
     protected JMenuItem customMI;
@@ -33,17 +33,26 @@ public class Window14  extends Window11 implements ActionListener{
 
     protected void addListeners(){
         super.addListeners();
-
         customMI.addActionListener(this);
     }
 
-    public void actionPerformed(ActionEvent e2){
-        super.actionPerformed(e2);
-        String command = e2.getActionCommand();
-        if(command.equals("Custom"){
-            choosingColor = new JColorChooser(dataTA.getForeground());
-            Color cl = choosingColor.getColor();
-            nameTF.setForeground(cl);
+    public void actionPerformed(ActionEvent e){
+        super.actionPerformed(e);
+        Object command = e.getSource();
+        if(command == customMI){
+            Color choosingColor = JColorChooser.showDialog(this, "Choose a color", nameTF.getForeground());
+            if(choosingColor != null )
+                nameTF.setForeground(choosingColor);
         }
+    }
+
+    @Override
+    public void addMenus(){
+        super.addMenus();
+
+        colorMenu = new JMenu("Color");
+        customMI = new JMenuItem("custom");
+        colorMenu.add(customMI);
+        menuBar.add(colorMenu);
     }
 }
